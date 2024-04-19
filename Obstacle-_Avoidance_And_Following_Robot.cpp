@@ -76,7 +76,7 @@ void loop()// run the code in loop
   }
 
 }
-
+// To define the movement of robot
  void moveForward(int delay_time,int leftspeed,int rightspeed)
  {
   analogWrite(leftmotorspeed,leftspeed); // to contol speed
@@ -130,3 +130,4 @@ void stopDriving(int delay_time,int leftspeed,int rightspeed)
   
   
  }
+//END
